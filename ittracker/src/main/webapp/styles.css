@@ -1,0 +1,237 @@
+html,body{
+margin:0;
+padding:0;
+background:#ededed url(images/bg.gif) repeat-x fixed;
+text-align:center; 
+}
+
+a:link{
+color:#2a3d54;
+text-decoration:none;
+}
+
+a:visited{
+color:#2a3d54;
+text-decoration:none;
+}
+
+a:hover{
+color:#CCCCCC;
+text-decoration:none;
+}
+
+a:active{
+color:#2a3d54;
+text-decoration:none;
+}
+
+h1{
+font:bold 12px verdana;
+width: 350px;
+border-bottom:1px solid #dedede;
+margin:0;
+padding:0;
+color:#a0d500;
+margin-bottom:8px;
+margin-left:20px;
+margin-top:10px;
+}
+
+h2{
+font:bold 12px verdana;
+width: 200px;
+border-bottom:1px solid #dedede;
+margin:0;
+padding:0;
+color:#a0d500;
+margin-bottom:8px;
+margin-left:20px;
+margin-top:10px;
+}
+
+h3{
+font: bold 16px Verdana;
+margin:0;
+color:#a0d500;
+padding:0;
+float:left;
+margin-top:30px;
+margin-left:30px;
+}
+
+* html h3{
+margin-left:20px;
+}
+
+h4{
+font: bold 14px Verdana;
+margin:0;
+color:#646464;
+padding:0;
+float:left;
+margin-top:90px;
+margin-left:30px;
+}
+
+* html h4{
+margin-left:20px;
+}
+
+.style1{
+float:left;
+font:9px Verdana;
+color:#666666;
+margin:0;
+padding:0;
+margin-left:10px;
+}
+
+.style2{
+padding:20px;
+font:10px Verdana;
+}
+
+#footer a{
+color:#a0d500;
+}
+
+#footer a:hover{
+color:#CCCCCC;
+}
+
+/*--------------------------End-------------------------*/
+
+/*--------------------------start Image styles-------------------------*/
+
+.img{
+float:left;
+margin-left:20px;
+border:1px solid #CCCCCC;
+}
+
+/*--------------------------End-------------------------*/
+
+/*--------------------------Start divs-------------------------*/
+
+#container{
+width:100%;
+height:100%;
+text-align:left;
+margin:0 auto;
+}
+
+#top{
+width:100%;
+height:79px;
+background:#2c425c;
+border-bottom:2px solid #FFFFFF;
+}
+
+#menu{
+width:100%;
+background:url(images/navbg.gif) repeat-x;
+height:30px;
+border-bottom:1px solid #c8d6e6;
+}
+
+#headertext{
+width:280px;
+height:200px;
+background:url(images/headertext.gif) repeat-x;
+float:left;
+border-bottom:1px solid #c8e0ff;
+}
+
+#banner{
+background:url(images/banner.gif);
+float:left;
+width:500px;
+height:200px;
+border-bottom:1px solid #c8e0ff;
+}
+
+#content{
+width:100%;
+min-height:332px;
+background:#FAFCFF url(images/contentbg.gif) repeat-x;
+margin:0;
+padding:0;
+border-top:1px solid #FFFFFF;
+float:left;
+}
+
+* html #content{
+height:162px; /*defines the height in IE6*/
+}
+
+#welcomecontainer{
+width:420px;
+height:100%;
+float:left;
+margin-left:10px;
+padding:0;
+border-right:1px solid #dedede;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.welcome{
+width:420px;
+height:100%;
+float:left;
+margin:0;
+padding:0;
+}
+
+.news{
+width:340px;
+height:100%;
+float:left;
+margin-left:10px;
+padding:0;
+margin:0;
+margin-top:10px;
+}
+
+* html .news{
+width:320px;
+}
+
+#footer{
+width:100%;
+height:80px;
+background:#2c415c;
+font:10px Verdana;
+color:#FFFFFF;
+padding:0;
+float:left;
+margin:0;
+}
+
+/*--------------------------End-------------------------*/
+
+/*--------------------------Start menu css-------------------------*/
+
+#menu ul{
+list-style-type:none;
+margin:0;
+font:bold 10px Verdana;
+text-decoration:none;
+float:left;
+padding:8px;
+width:100%;
+font-size: 12px;
+}
+
+#menu li{
+display:inline;
+}
+
+#menu li a{
+color:#646464;
+padding:8px;
+}
+
+#menu li a:hover{
+background:url(images/navover.gif) repeat-x;
+}
